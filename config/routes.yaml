@@ -1,0 +1,7 @@
+index:
+    path: /
+    defaults: { _controller: 'App\Controller\HomeController::indexAction' }
+
+profile:
+    path: /profile/{name}
+    defaults: { _controller: 'App\Controller\ProfileController::indexAction' }
